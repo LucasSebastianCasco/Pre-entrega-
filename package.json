@@ -1,0 +1,19 @@
+{
+  "name": "desafio-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --e2e -b chrome --config baseUrl=https://pushing-front.vercel.app/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^10.4.0",
+    "git": "^0.1.5"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
