@@ -10,10 +10,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cypress": "^10.4.0",
-    "git": "^0.1.5"
+    "cypress": "^10.3.0"
   },
   "devDependencies": {
-    "cypress-xpath": "^2.0.1"
+    "cypress-xpath": "^2.0.0"
   }
 }
