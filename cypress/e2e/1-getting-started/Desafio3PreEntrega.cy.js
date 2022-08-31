@@ -70,7 +70,7 @@ describe('Entrega Final', () => {
         shopping.ComparacionPrecioProduct(fixtureProductos.Prenda1,fixtureProductos.PrecioPrenda1);
         shopping.ComparacionProducto(fixtureProductos.Prenda2);
         shopping.ComparacionPrecioProduct(fixtureProductos.Prenda2,fixtureProductos.PrecioPrenda2); 
-        shopping.Precios2Productos('have.text', fixtureProductos.PrecioPrenda1 + fixtureProductos.PrecioPrenda2);
+        shopping.Precios2Productos(fixtureProductos.PrecioPrenda1 + fixtureProductos.PrecioPrenda2);
         
         checkout.clickButtonCheckout();
         checkout.IngresarFirstName(fixtureModalCheckout.firstName);

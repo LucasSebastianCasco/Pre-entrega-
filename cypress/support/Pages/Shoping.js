@@ -12,8 +12,8 @@ export class Shopping{
         cy.xpath(`//*[@name='${product}']`).siblings('#productPrice').should('have.text',`$${precio}`)
     }
 
-    Precios2Productos(){
-        cy.get("#price")
+    Precios2Productos(precio){
+        cy.get("#price").should('include.text',precio)
     }
 
     popupGoToShoppingCar(){
